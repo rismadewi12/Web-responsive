@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    color: brown;
+    font-size: 10em;
+}
+.judul{
+    background-color: palevioletred;
+    text-align: center;
+    color: coral;
+    background-image: url(asset/129.jpg);
+    font-size: 50px;
+}
+.judul .h1{
+    font-size: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr, 2fr;
+    gap: 5px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.service {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
